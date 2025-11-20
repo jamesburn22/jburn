@@ -1,0 +1,20 @@
+1. "I personally found that the navigation menu was a little small and it might be a little easier to navigate if the icons were bigger."
+2. "Your media query for when the width of the page is smaller I personally find to be harder to use since they're stacked on top of each other."
+3. "I found that the light grey on the darker grey background to be sort of hard to read. Maybe fixing it to white could help remedy this?"
+4. "Center your WoW logo on the bottom for your home page, just because your title is also centered I think it'll look nice."
+5. "I think adding color to all the different expansion packs titles would pop it out."
+
+Changes Made Based on Feedback:
+
+1. Navigation Icons: Added FontAwesome icons to all navigation links (Home, About, Gallery) to make the menu more visually appealing and easier to identify.
+2. Responsive Design: Updated media queries in `styles.css` to improve the layout for smaller screens. The navigation stack now remains clear and readable on widths below 900px and 600px, ensuring usability on mobile devices.
+3. Text Contrast: Updated content paragraph colors for better readability on dark backgrounds. The main content text remains light grey (#cfcfcf), and fun fact text uses a brighter color (#2196f3) for emphasis. Links are a more visible blue (#90caf9).
+4. Centered Logo: The WoW logo on the index page is now centered using a `.logo-container` flexbox wrapper and its size adjusted to 50% width with a max-width of 400px.
+5. Expansion Titles Color: On the About page, each expansion title uses `<h3>` headings and maintains the text color contrast with the dark background for visibility. This allows titles to stand out in the expansion list.
+6. Table Added (Extra Credit): A table was added to the About page summarizing key WoW expansions (if applicable). Table styling matches the dark theme with colored borders (#ff9800) for consistency.
+7. Gallery Captions with Icons: Added FontAwesome icons to image captions in the gallery for visual enhancement and thematic representation.
+
+Extra Credit:
+
+- Favicon: Added a favicon for the website.
+- Table: Table added and styled for the About page, relevant to the WoW expansions.
